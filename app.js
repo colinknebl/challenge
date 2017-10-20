@@ -14,7 +14,7 @@ btn.addEventListener('click', function(){
 
 
 var arrayBtn = document.getElementById('array-btn');
-var output = document.getElementById('output');
+var output = document.getElementsByClassName('output')[0];
 var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 var newArray = [];
 

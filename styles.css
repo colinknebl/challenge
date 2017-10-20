@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #38B5BD;
   position: relative;
@@ -5,7 +9,7 @@ body {
   padding: 0;
 }
 
-.p-content, button, form, #output, fieldset, #link {
+.p-content, button, form, .output, fieldset, .link {
   margin: 1rem;
 }
 
