@@ -9,7 +9,7 @@ body {
   margin: 1rem;
 }
 
-.btn {
+#modal-btn {
   position: relative;
   z-index: 1;
 }

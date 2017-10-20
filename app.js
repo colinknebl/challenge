@@ -1,4 +1,4 @@
-var btn = document.getElementById('btn');
+var btn = document.getElementById('modal-btn');
 
 var modalContainer = document.getElementById('modal-container');
 
