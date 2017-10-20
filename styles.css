@@ -1,0 +1,41 @@
+body {
+  background: #38B5BD;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.p-content, button, form, #output, fieldset {
+  margin: 1rem;
+}
+
+button {
+  position: relative;
+  z-index: 1;
+}
+
+.modal-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  border-radius: 15px;
+  background: black;
+  width: 70%;
+  height: 70%;
+  text-align: center;
+}
+
+.modal-txt {
+  color: white;
+}
+
+.hide {
+  display: none;
+}
